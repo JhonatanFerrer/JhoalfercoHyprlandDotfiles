@@ -1,0 +1,127 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 28,
+    "margin-top": 0,
+    "margin-left": 5,
+    "margin-right": 5,
+    "margin-bottom": 0,
+    "spacing": 0,
+    
+    "modules-left": ["custom/app_menu", "hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray", "privacy", "idle_inhibitor", "bluetooth", "battery", "pulseaudio", "network", "user", "custom/power_menu"],
+
+    "custom/power_menu": {
+        "format": "⏻ ",
+        "on-click": "bash .config/rofi/powermenu.sh",
+        "tooltip": true,
+        "tooltip-format": "Power Menu"
+    },
+
+    "custom/app_menu": {
+        "format": " ",
+        "on-click": "rofi -show drun",
+        "tooltip": true,
+        "tooltip-format": "Applications"
+    },
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        "sort-by-number": true
+    },
+    
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 50
+    },
+    
+    "tray": {
+        "icon-size": 16,
+        "spacing": 5
+    },
+
+    "privacy": {
+        "icon-spacing": 6,
+        "icon-size": 14,
+        "transition-duration": 250,
+        "modules": [
+            {
+                "type": "screenshare",
+                "tooltip": true,
+                "tooltip-icon-size": 24
+            },
+            {
+                "type": "audio-in",
+                "tooltip": true,
+                "tooltip-icon-size": 24
+            }
+        ]
+    },
+    
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": " ",
+        "format-bluetooth": "󰗾",
+        "format-icons": {
+            "default": [" ", " ", " "]
+        },
+        "on-click": "pavucontrol"
+    },
+    
+    
+    "network": {
+        "format-wifi": "󰖩  {essid}",
+        "format-ethernet": "󰈀  Eth",
+        "format-linked": "󰈀  {ifname} (No IP)",
+        "format-disconnected": "󰲛 ",
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+        "tooltip-format-wifi": "{ifname}: {ipaddr}/{cidr}",
+        "tooltip-format-ethernet": "{ifname}: {ipaddr}/{cidr}",
+        "tooltip-format-disconnected": "disconnected"
+        
+    },
+
+    "battery": {
+        "bat": "BAT2",
+        "interval": 60,
+        "states": {
+            "warning": 20,
+            "critical": 10
+        },
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "max-length": 25
+    },
+
+    "bluetooth": {
+        "format": " {status}",
+        "format-no-controller": "",
+        "format-disabled": "",
+        "format-connected": " {num_connections} connected",
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        
+        "on-click": "kitty bluetui"
+    },
+    
+    "clock": {
+        "format": "{:%a %d/%m %I:%M %p}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },  
+
+    "user": {
+        "format": " {user}"
+    },
+
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": " ",
+            "deactivated": " "
+    }
+}
+}
