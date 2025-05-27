@@ -1,4 +1,4 @@
-# dotfiles_hyprland_catppuccin
+# JhoalfercoHyprlandDotfiles
 Basic Hyprland dotfiles with catppuccin mocha color theme. I made the dotfiles for Arch Linux, but it should work well in other distros with minor changes 
 
 ## Dependencies
