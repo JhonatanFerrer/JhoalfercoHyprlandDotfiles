@@ -22,6 +22,10 @@ Basic Hyprland dotfiles with catppuccin mocha color theme. I made the dotfiles f
 
 Also I recommend the catppuccin-gtk-theme-mocha from AUR
 
+## How to install
+
+Just drop all the files in your home directory and enjoy :3
+
 ## Screenshots
 
 ![2025-03-17_14-41](https://github.com/user-attachments/assets/18f26aac-539a-40a3-a9c9-719c29b1715e)
