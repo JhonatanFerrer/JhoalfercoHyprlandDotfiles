@@ -24,7 +24,7 @@ Also I recommend the catppuccin-gtk-theme-mocha from AUR
 
 ## How to install
 
-Just drop all the files in your home directory, adjust monitor and keyboard config in hyprland, battery monitoring in waybar, and enjoy :3
+Just drop all the files in your home directory, adjust monitor and keyboard config in hyprland, battery monitoring in waybar (if needed), and enjoy :3
 
 ## Screenshots
 
