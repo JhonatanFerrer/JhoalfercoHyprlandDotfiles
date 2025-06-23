@@ -13,10 +13,12 @@ Basic Hyprland dotfiles with catppuccin mocha color theme. I made the dotfiles f
 - Rofi wayland
 - Gnome polkit
 - Xdg-desktop-portal-hyprland
-- Wl-clipboard
-- Gscreenshot
+- Cliphist
+- Grim
+- Slurp
+- Wl-config
 - Ubuntu Nerd font and FiraCode Nerd Font
-- Floorp and Thunar (set shortcuts for them, feel free to install the web and file browser you prefer)
+- Floorp and Nemo (set shortcuts for them, feel free to install the web and file browser you prefer)
 - Fastfetch (If you want flex your system)
 - Bluetui (I configure bluetooth with it)
 
