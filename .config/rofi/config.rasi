@@ -38,6 +38,7 @@ window {
     border: 4px;
     width: 18em;
     border-color: @bordercolor;
+    border-radius: 8px;
 }
 mainbox {
     border:  0;
@@ -65,6 +66,7 @@ element {
     border:  0;
     padding: 1px ;
     children: [element-icon,  element-text];
+    border-radius: 4px;
 }
 element-text {
     background-color: inherit;

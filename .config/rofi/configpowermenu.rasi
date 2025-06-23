@@ -32,6 +32,7 @@ window {
     width: 8em;
     border: 4px;
     border-color: @bordercolor;
+    border-radius: 8px;
 }
 mainbox {
     border:  0;
@@ -41,6 +42,7 @@ mainbox {
 element {
     border:  0;
     padding: 1px ;
+    border-radius: 4px;
     children: [element-text];
 }
 element-text {
