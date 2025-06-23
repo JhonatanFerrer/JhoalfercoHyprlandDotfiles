@@ -30,17 +30,18 @@ Just drop all the files in your home directory, adjust monitor and keyboard conf
 
 ## Screenshots
 
-![2025-03-17_14-41](https://github.com/user-attachments/assets/18f26aac-539a-40a3-a9c9-719c29b1715e)
+![image](https://github.com/user-attachments/assets/4dbd65f1-27c1-4037-9a42-02b5d4c2b7cd)
 
-![gscreenshot_2025-05-26-201101](https://github.com/user-attachments/assets/7f94a8f0-2447-44fb-868c-01039ab9773f)
+![image](https://github.com/user-attachments/assets/4ced74e2-bff9-4930-8d60-71bdf16e72d3)
 
-![gscreenshot_2025-05-26-201129](https://github.com/user-attachments/assets/8147ef41-7509-41f2-8e8b-04e230e82524)
+![image](https://github.com/user-attachments/assets/47dce0b1-4a7e-4c3e-bb79-94f7ebade258)
 
-![gscreenshot_2025-05-26-201200](https://github.com/user-attachments/assets/8ef64eaf-2ea2-44e3-9949-bd388d3c1e8b)
+![image](https://github.com/user-attachments/assets/b12f9c6e-78d4-4ec2-956e-3fbd78803b26)
 
-![gscreenshot_2025-05-26-201519](https://github.com/user-attachments/assets/3a3de5a2-7d3b-4108-842b-1cbe7a4e5a9d)
+![image](https://github.com/user-attachments/assets/5d37b34d-387d-4d18-adb4-d043627c1246)
 
-![gscreenshot_2025-05-26-201139](https://github.com/user-attachments/assets/37a08929-009b-481f-8b94-c259a2d783c5)
+![image](https://github.com/user-attachments/assets/7a66f7e1-c4ea-4521-9f4e-8b0ea010a8db)
+
 
 
 
