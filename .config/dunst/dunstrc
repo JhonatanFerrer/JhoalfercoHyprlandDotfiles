@@ -1,7 +1,7 @@
 [global]
     follow = keyboard
-    width = (0, 500)
-    height = (0, 500)
+    width = (0, 300)
+    height = (0, 300)
     origin = bottom-right
     offset = (0, 0)
     notification_limit = 20
