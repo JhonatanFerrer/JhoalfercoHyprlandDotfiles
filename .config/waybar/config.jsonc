@@ -10,7 +10,7 @@
     
     "modules-left": ["custom/app_menu", "hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "privacy", "idle_inhibitor", "bluetooth", "battery", "pulseaudio", "network", "user", "custom/power_menu"],
+    "modules-right": ["tray", "privacy", "idle_inhibitor", "bluetooth", "battery", "pulseaudio", "hyprland/language", "network", "user", "custom/power_menu"],
 
     "custom/power_menu": {
         "format": "⏻ ",
@@ -140,6 +140,13 @@
         "format-icons": {
             "activated": " ",
             "deactivated": " "
+        }
+
+    
+    },
+
+    "hyprland/language": {
+        "format": "  {short} {variant}"
+ 
     }
-}
 }
