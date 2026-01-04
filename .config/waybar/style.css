@@ -1,0 +1,22 @@
+@import "style/colors.css";
+
+* {
+    font-family: UbuntuNerdFont Propo;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+window#waybar {
+    background-color: @background;
+    color: @white;
+}
+
+
+@import "style/left.css";
+@import "style/right.css";
+
+tooltip {
+    color: @white;
+    background: @background;
+
+}

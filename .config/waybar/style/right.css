@@ -1,0 +1,103 @@
+
+
+#custom-separator1,
+#custom-separator2,
+#custom-separator3,
+#custom-separator4,
+#custom-separator5
+{
+    border-radius: 0px;
+    margin: 0px;
+    font-size: 24px;
+}
+
+#tray,
+#privacy{
+    margin: 0 6px;
+}
+
+#privacy{
+    color: @warning;
+}
+
+#custom-separator1{
+    background: transparent;
+    color: @color5;
+}
+
+#idle_inhibitor,
+#language
+{
+    
+    border-radius: 0px;
+    margin: 0px;
+    background: @color5;
+    color: @black;
+    padding: 0 6px;
+}
+
+#custom-separator2{
+    background: @color5;
+    color: @color4;
+}
+
+#pulseaudio,
+#battery
+{
+    border-radius: 0px;
+    margin: 0px;
+    background: @color4;
+    color: @black;
+    padding: 0 6px;
+}
+
+#battery.warning:not(.charging) {
+    color: @warning;
+}
+
+#battery.critical:not(.charging) {
+    color: @critical;
+}
+
+#custom-separator3{
+    background: @color4;
+    color: @color3;
+}
+
+#network,
+#bluetooth
+{
+    border-radius: 0px;
+    margin: 0px;
+    background: @color3;
+    color: @black;
+    padding: 0 6px;
+}
+
+#custom-separator4{
+    background: @color3;
+    color: @color2;
+}
+
+#clock
+{
+    border-radius: 0px;
+    margin: 0px;
+    background: @color2;
+    color: @black;
+    padding: 0 6px;
+}
+
+#custom-separator5{
+    background: @color2;
+    color: @color1;
+}
+
+#custom-os
+{
+    margin: 0px;
+    background: @color1;
+    color: @black;
+    padding: 0 12px 0 6px;
+    border-radius: 0 8px 8px 0;
+}

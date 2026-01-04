@@ -1,0 +1,18 @@
+{
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        "sort-by-number": true
+    },
+    
+    "hyprland/window": {
+        "format": "{title}",
+        "max-length": 50,
+        "icon-size": 14,
+        "icon": true
+    },
+    
+    "hyprland/language": {
+        "format": " {short} {variant}"
+    }
+}

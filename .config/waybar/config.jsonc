@@ -1,0 +1,35 @@
+{
+    "include": [
+        "~/.config/waybar/modules/hyprland.jsonc",
+        "~/.config/waybar/modules/tray.jsonc",
+        "~/.config/waybar/modules/privacy.jsonc",
+        "~/.config/waybar/modules/custom.jsonc",
+        "~/.config/waybar/modules/pulseaudio.jsonc",
+        "~/.config/waybar/modules/battery.jsonc",
+        "~/.config/waybar/modules/network.jsonc",
+        "~/.config/waybar/modules/bluetooth.jsonc",
+        "~/.config/waybar/modules/clock.jsonc",
+		"~/.config/waybar/modules/idle.jsonc"
+	],
+
+    "layer": "top",
+    "position": "top",
+    "height": 28,
+    "margin-top": 5,
+    "margin-left": 5,
+    "margin-right": 5,
+    "margin-bottom": 0,
+    "spacing": 0,
+    
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": [],
+    "modules-right": [
+        "tray", "privacy", 
+        "custom/separator1", "idle_inhibitor", "hyprland/language", 
+        "custom/separator2", "pulseaudio", "battery",
+        "custom/separator3", "network", "bluetooth", 
+        "custom/separator4", "clock", 
+        "custom/separator5", "custom/os"]
+
+    
+}

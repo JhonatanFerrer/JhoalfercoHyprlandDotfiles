@@ -1,0 +1,27 @@
+{
+    "custom/separator1": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/separator2": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/separator3": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/separator4": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/separator5": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/os": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "kitty"
+    }
+}
