@@ -1,24 +1,31 @@
 # JhoalfercoHyprlandDotfiles
 Basic Hyprland dotfiles with catppuccin mocha color theme. I made the dotfiles for Arch Linux, but it should work well in other distros with minor changes 
 
+## Features
+
+- Image-compatible clipboard
+- Dynamic hyprpaper configuration, just set variables for monitors and wallpapers in hyprland config
+- Theme selector (ToDo)
+- Shortcuts cheat sheet (ToDo)
+
 ## Dependencies
 - Hyprland
 - Hyprpaper
 - Hyprlock
 - Hypridle
 - Waybar
-- Dunst
+- Mako
 - Kitty
 - Zsh (I made a basic promp with chatgpt help :v)
-- Rofi wayland
+- Rofi
 - Gnome polkit
 - Xdg-desktop-portal-hyprland
 - Cliphist
 - Grim
 - Slurp
-- Wl-config
+- Wl-clipboard
 - Ubuntu Nerd font and FiraCode Nerd Font
-- Floorp and Nemo (set shortcuts for them, feel free to install the web and file browser you prefer)
+- Firefox, Thunderbird, Nemo and Galculator (setted shortcuts for them, feel free to install the web and file browser you prefer)
 - Fastfetch (If you want flex your system)
 - Bluetui (I configure bluetooth with it)
 
@@ -30,17 +37,17 @@ Just drop all the files in your home directory, adjust monitor and keyboard conf
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/4dbd65f1-27c1-4037-9a42-02b5d4c2b7cd)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/009d64d9-1803-479c-904b-505180552a31" />
 
-![image](https://github.com/user-attachments/assets/4ced74e2-bff9-4930-8d60-71bdf16e72d3)
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/491e3e03-3e15-4ac4-bb93-b6b309288d5b" />
 
-![image](https://github.com/user-attachments/assets/47dce0b1-4a7e-4c3e-bb79-94f7ebade258)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c113ed8e-fa02-4303-bddd-75eed6cbd131" />
 
-![image](https://github.com/user-attachments/assets/b12f9c6e-78d4-4ec2-956e-3fbd78803b26)
 
-![image](https://github.com/user-attachments/assets/5d37b34d-387d-4d18-adb4-d043627c1246)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/83895060-c734-4572-ad6c-7dbab9c0bd4a" />
 
-![image](https://github.com/user-attachments/assets/7a66f7e1-c4ea-4521-9f4e-8b0ea010a8db)
+<img width="1920" height="1082" alt="image" src="https://github.com/user-attachments/assets/29f6caf8-e9cd-4898-a278-ae227e619805" />
+
 
 
 
