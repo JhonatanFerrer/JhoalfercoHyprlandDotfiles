@@ -18,22 +18,28 @@ alias grep='grep --color=auto'
 
 autoload -Uz vcs_info
 
-# Activar información de Git
 precmd() { vcs_info }
 
-# Definir los colores (puedes ajustar a gusto)
 autoload -U colors && colors
 setopt prompt_subst
 
-# Colores personalizados
+# promp
+
 usercolor="%F{cyan}"
-hostcolor="%F{blue}"
+hostcolor="%F{magenta}"
 gitcolor="%F{red}"
-symbolcolor="%F{green}"
+symbolcolor="%F{blue}"
 reset="%f"
 
-# Prompt con rama de git si aplica
 PROMPT='${usercolor}%n${reset}@${hostcolor}%m ${reset}%1~${vcs_info_msg_0_} ${symbolcolor}%# ${reset}'
 
-# Formato de la rama de git
 zstyle ':vcs_info:git:*' formats " ${gitcolor}(%b)${reset}"
+
+
+# autostart with fastfetch
+
+if [[ $TERM == "xterm-kitty" ]]; then
+  fastfetch
+else
+  :
+fi

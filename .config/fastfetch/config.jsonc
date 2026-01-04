@@ -2,7 +2,7 @@
 {
      "logo": {
          "type": "auto",
-         "source": "~/.config/fastfetch/image2.png",
+         "source": "~/Pictures/Profile/image.png",
          "width": 32,
          "height": 15
      },
@@ -10,34 +10,29 @@
         "separator": " "
     },
     "modules": [
-        "break",
-        {
-            "type": "host",
-            "key": "╭─󰇅 ",
-            "keyColor": "blue"
-        },
+
         {
             "type": "cpu",
-            "key": "├─ ",
+            "key": "┌─  ",
             "format": "{1}",
             "keyColor": "blue"
         },
         {
             "type": "gpu",
-            "key": "├─ ",
+            "key": "├─  ",
             "format": "{2}",
             "keyColor": "blue"
         },
         {
             "type": "memory",
-            "key": "├─ ",
+            "key": "├─  ",
             "keyColor": "blue",
             "format": "{2}"
         },
 
         {
             "type": "display",
-            "key": "╰─󰍹 ",
+            "key": "└─ 󰍹 ",
             "keyColor": "blue",
             "compactType": "original"
         },
@@ -45,44 +40,45 @@
 
         {
             "type": "shell",
-            "key": "╭─ ",
+            "key": "┌─  ",
             "keyColor": "green"
         },
         {
             "type": "terminal",
-            "key": "├─ ",
+            "key": "├─  ",
             "keyColor": "green"
         },
         {
             "type": "de",
-            "key": "├─ ",
+            "key": "├─  ",
             "keyColor": "green"
         },
         {
             "type": "wm",
-            "key": "╰─ ",
+            "key": "└─  ",
             "keyColor": "green"
         },
 
         "break",
         {
             "type": "title",
-            "key": "╭─ ",
-            "format": "{1}@{2}",
+            "key": "┌─  ",
+            "format": "{1}",
             "keyColor": "magenta"
         },
         {
             "type": "os",
-            "key": "├─ ", // Just get your distro's logo off nerdfonts.com
+            "key": "├─  ", // Just get your distro's logo off nerdfonts.com
             "keyColor": "magenta"
         },
         {
             "type": "kernel",
-            "key": "╰─ ",
+            "key": "└─  ",
             "format": "{1} {2}",
             "keyColor": "magenta"
         },
         "break",
-        "colors"
+        "colors",
+	"break"
     ]
 }

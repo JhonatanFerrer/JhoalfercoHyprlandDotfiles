@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+#script taken from cliphist repo https://github.com/sentriz/cliphist
+
 tmp_dir="/tmp/cliphist"
 rm -rf "$tmp_dir"
 
