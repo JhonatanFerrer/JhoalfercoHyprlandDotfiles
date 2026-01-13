@@ -22,6 +22,6 @@
     "custom/os": {
         "format": "",
         "tooltip": false,
-        "on-click": "kitty -d ~ --hold fastfetch &"
+        "on-click": "kitty"
     }
 }
