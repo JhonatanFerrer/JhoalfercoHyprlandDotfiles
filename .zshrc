@@ -34,12 +34,3 @@ reset="%f"
 PROMPT='${usercolor}%n${reset}@${hostcolor}%m ${reset}%1~${vcs_info_msg_0_} ${symbolcolor}%# ${reset}'
 
 zstyle ':vcs_info:git:*' formats " ${gitcolor}(%b)${reset}"
-
-
-# autostart with fastfetch
-
-if [[ $TERM == "xterm-kitty" ]]; then
-  fastfetch
-else
-  :
-fi
