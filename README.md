@@ -19,6 +19,8 @@ Basic Hyprland dotfiles with catppuccin mocha color theme. I made the dotfiles f
 - Zsh (I made a basic promp with chatgpt help :v)
 - Rofi
 - Gnome polkit
+- Pipewire and Pipewire-pulse
+- Pavucontrol
 - Xdg-desktop-portal-hyprland
 - Cliphist
 - Grim
