@@ -7,8 +7,16 @@
 }
 
 window#waybar {
-    background-color: @background;
+    background-color: transparent;
     color: @white;
+}
+
+window#waybar > box {
+    border-radius: 8px;
+    margin: 2px 2px 2px 2px;
+    background-color: @background;
+    box-shadow: 1px 1px 3px 1px @shadow;
+    
 }
 
 

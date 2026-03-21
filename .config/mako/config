@@ -1,8 +1,8 @@
 sort=-time
 layer=overlay
 background-color=#1e1e2e
-width=300
-height=110
+width=250
+height=150
 border-size=4
 border-color=#cba6f7
 border-radius=8
@@ -10,10 +10,10 @@ icons=0
 max-icon-size=64
 default-timeout=5000
 ignore-timeout=1
-font=UbuntuNerdFont Propo 12
+font=UbuntuNerdFont Propo 14
 text-color=#cdd6f4
 anchor=bottom-right
-outer-margin=5
+outer-margin=25,15
 margin=10
 padding=5
 
