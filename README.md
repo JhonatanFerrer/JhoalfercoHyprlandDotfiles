@@ -26,6 +26,7 @@ Basic Hyprland dotfiles with catppuccin mocha color theme. I made the dotfiles f
 - Grim
 - Slurp
 - Wl-clipboard
+- Qt6-ct
 - Ubuntu Nerd Font and FiraCode Nerd Font
 - Firefox, Thunderbird, Nemo and Galculator (setted shortcuts for them, feel free to install the web and file browser you prefer)
 - Fastfetch (If you want flex your system)
